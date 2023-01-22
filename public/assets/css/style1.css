@@ -1,0 +1,113 @@
+.{
+    margin: 0;
+}
+html, body{
+width: 100%;
+height: 100%;
+}
+
+/* Navigation Bar */
+.navbar {
+  
+  text-align: center;
+  display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.3rem;
+  font-weight: bold;
+
+}
+
+.nav-item {
+  padding: 0 15px;
+    color: :white;
+
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat-Light";}
+
+.d-flex{
+  padding-top: 5px;
+}
+   ul{
+
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 1px;
+    
+    
+   }
+
+.social-icon{
+
+          height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 7px;
+    margin-right: 11px;
+    cursor: pointer;
+      
+    }
+
+.social-facebook{
+
+      background-color: #3b5999;
+    }
+
+.social-instagram{
+
+      background-color: #dd4b39;
+    }
+
+    .social-icon i{
+
+      transition: 0.4s all;
+    }
+
+    .social-icon:hover i{
+
+      transform: scale(1.1);
+
+    }
+    select{
+      
+    padding-top: 0px;
+    border-top-width: 0px;
+    margin-top: 5px;
+
+    }
+    
+
+
+.hero-image {
+  background-image: url("image/k1.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
