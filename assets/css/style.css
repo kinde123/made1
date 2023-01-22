@@ -12,8 +12,8 @@ html {
 }
 html,
 body {
-    width: auto !important;
-    overflow-x: hidden !important
+    width: auto;
+    overflow-x: hidden;
 }
 
 body {
