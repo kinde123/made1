@@ -16,7 +16,7 @@ function BrandExample() {
                     bg = "dark"
                     variant = "dark" >
                     <
-                    Navbar.Brand href = "#home" > <img src="assets/images/logo1.png" alt="logo" style={{'width':'100', height:'auto',maxWidth:250,marginLeft:0,}} /> < /Navbar.Brand> <
+                    Navbar.Brand href = "#home" > <img src="assets/images/logo1.png" alt="logo" style={{'width':'100', height:'auto',maxWidth:250,marginLeft:30,}} /> < /Navbar.Brand> <
                     Navbar.Toggle ariaControls = "responsive-navbar-nav" / >
                     <
                     Navbar.Collapse id = "responsive-navbar-nav" >
@@ -25,13 +25,13 @@ function BrandExample() {
                    
                     >
                     <
-                    Nav.Link href = "#features" > Features < /Nav.Link> <
-                    Nav.Link href = "#pricing" > Pricing < /Nav.Link> <
-                    Nav.Link href = "#deets" > More details < /Nav.Link>  
+                    Nav.Link href = "#features" style={{color:'white'}}> Oferta < /Nav.Link> <
+                    Nav.Link href = "#pricing" style={{color:"white",fontSize:15}}> Panel Architekta < /Nav.Link> <
+                    Nav.Link href = "#deets" style={{color:"white",fontSize:15}}> Newsroom < /Nav.Link>  
                     <
-                    Nav.Link href = "#features" > Features < /Nav.Link> <
-                    Nav.Link href = "#pricing" > Pricing < /Nav.Link> <
-                    Nav.Link href = "#deets" > More details < /Nav.Link> 
+                    Nav.Link href = "#features" style={{color:"white",fontSize:15}}> Wnetrza3D < /Nav.Link> <
+                    Nav.Link href = "#pricing" style={{color:"white",fontSize:15}}> Kontakt < /Nav.Link> 
+                    
                     <
                     /Nav> 
                     
