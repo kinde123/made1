@@ -361,7 +361,7 @@ li a.contact:hover {
   .navlinks {
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: auto;
     text-align: center;
     transition: all 0.5s;
     right: -100%;
