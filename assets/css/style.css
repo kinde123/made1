@@ -32,8 +32,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Public Sans',
-        sans-serif;
+     font-family: Arial,
+  sans-serif;
     /* font: normal normal normal 30px/34px Helvetica Neue; */
     letter-spacing: 0px;
     color: #707070;
@@ -42,23 +42,25 @@ h6 {
 
 p {
     color: #8f8f8f;
-    font-family: 'Public Sans',
-        sans-serif;
+    font-family: Arial,
+  sans-serif;
         font-size: 1rem;
 }
 
 
 
 .made4you {
-    font-family: 'Public Sans',
-        sans-serif;
+    font-family: font-family: Arial,
+  sans-serif;
 }
 
 
 
 button {
-    font-family: 'Public Sans',
-        sans-serif;
+    /* font-family: 'Public Sans',
+        sans-serif; */
+        font-family: Arial,
+  sans-serif;
 }
 
 .img-responsive {
@@ -240,12 +242,7 @@ div>option {
     margin-right: 50px;
 }
 
-#pytanie,
-#pytanie2,
-#pytanie3 {
-    margin-left: 40px;
-    margin-right: 40px;
-}
+
 
 .box_main h4.active {
     color: #000;
@@ -288,6 +285,10 @@ footer {
 li {
     font: 1rem 'Fira Sans', sans-serif;
     margin-bottom: 0.5rem;
+    color: #8f8f8f;
+    font-family: Arial,
+  sans-serif;
+        font-size: 1rem;
 }
 @media screen  and (min-width:992px){
     #responsive1{
