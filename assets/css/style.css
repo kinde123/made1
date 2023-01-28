@@ -178,6 +178,9 @@ div>option {
 
 .img {
     padding-bottom: 10px;
+    max-width: 250;
+    width:100%;
+    height: auto;
 
 }
 
