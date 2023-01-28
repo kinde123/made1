@@ -274,5 +274,6 @@ footer {
 #responsive1{
      max-width: 90%;
      width:100%;
-    height: auto;
+    height: 500px;
+    marin: auto;
 }
