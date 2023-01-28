@@ -282,3 +282,11 @@ footer {
 .card{
     background-color:#FFFFFF;
 }
+
+@media screen  and (min-width:992px){
+    img{
+       max-width:auto;
+       width:100%;
+    height: 500px; 
+    }
+}
