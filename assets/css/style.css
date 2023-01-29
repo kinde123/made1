@@ -144,7 +144,7 @@ div>option {
     background-image: url("../images/m1.jpeg");
     background-color: #cccccc;
 
-    height: 500px;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -308,6 +308,9 @@ li {
         width: 100%;
         height: auto;
         
+    }
+    .made4you-image{
+        height: 500px;
     }
 }
   
