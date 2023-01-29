@@ -303,11 +303,11 @@ li {
 }
 
 @media screen and (max-width:500px) {
-    #responsive1 {
+    .responsive {
         max-width: 100%;
         width: 100%;
         height: auto;
-        margin: auto;
+        
     }
 }
   
