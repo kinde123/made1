@@ -290,6 +290,9 @@ li {
   sans-serif;
         font-size: 1rem;
 }
+
+
+
 @media screen  and (min-width:992px){
     #responsive1{
        max-width:80%;
@@ -298,3 +301,14 @@ li {
     margin:auto;
     }
 }
+
+@media screen and (max-width:500px) {
+    #responsive1 {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+}
+  
+  
