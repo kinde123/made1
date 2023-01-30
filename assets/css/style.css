@@ -141,7 +141,7 @@ div>option {
 }
 
 .made4you-image {
-    background-image: url(".src/assets/images/m1.jpeg");
+    background-image: url("../images/m1.jpeg");
     background-color: #cccccc;
 
     height: 700px;
