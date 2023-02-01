@@ -137,14 +137,15 @@ div>option {
 #Website {
     width: 100%;
     height: auto;
-    margin: 20px auto
+    margin: 20px auto;
 }
 
 .made4you-image {
-    background-image: url("../images/mi.webp");
+    --background-image-lazy: url("../images/mi.webp");
+     background-image: var(--background-image-lazy);
     background-color: #cccccc;
 
-    height: 700px;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
