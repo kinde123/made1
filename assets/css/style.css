@@ -230,8 +230,7 @@ div>option {
 
 .banner-image {
     width: 100%;
-    max-width: 50%;
-    max-height: 50%;
+    height: auto;
 
     border: 1px solid #ddd;
     border-radius: 4px;
