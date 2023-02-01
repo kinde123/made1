@@ -141,7 +141,7 @@ div>option {
 }
 
 .made4you-image {
-    --background-image-lazy: url("../images/mi.webp");
+    --background-image-lazy: url("../images/mi.png");
      background-image: var(--background-image-lazy);
     background-color: #cccccc;
 
