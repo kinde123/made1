@@ -195,6 +195,12 @@ div>option {
     margin-left: 50px;
     margin-right: 50px;
 }
+#featureso {
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
 
 .feature-title {
     font-size: 1.2rem;
