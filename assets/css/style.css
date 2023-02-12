@@ -340,4 +340,19 @@ li {
     }
 }
   
-  
+  .parent {
+        position: relative;
+      }
+      .text-block {
+        position: absolute;
+        bottom: 50px;
+        left: 20px;
+        background-color: #000;
+        opacity: .6;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .parent img {
+        width: 50%;
+      }
