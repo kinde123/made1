@@ -10,6 +10,7 @@ body {
     width: auto !important;
     overflow-x: hidden !important;
      height:100%;
+     background-color: white;
     
 }
 
@@ -238,6 +239,7 @@ div>option {
 .banner-image {
     width: 100%;
     height: auto;
+    max-width: 500px;
 
     border: 1px solid #ddd;
     border-radius: 4px;
