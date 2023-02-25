@@ -142,8 +142,8 @@ div>option {
 }
 
 .made4you-image {
-     /* --background-image-lazy: url("page\images\mi.png"); 
-     background-image: var(--background-image-lazy); */
+      --background-image-lazy: url("..\image\mi.png"); 
+     background-image: var(--background-image-lazy); 
     background-color: #cccccc;
 
     height: 500px;
