@@ -141,7 +141,7 @@ div>option {
     margin: 20px auto;
 }
 
-/* .made4you-image {
+.made4you-image {
      --background-image-lazy: url("../images/mi.png"); 
      background-image: var(--background-image-lazy);
     background-color: #cccccc;
@@ -152,7 +152,7 @@ div>option {
     background-size: cover;
     position: relative;
 
-} */
+} 
 
 .responsive {
     width: 90%;
@@ -426,4 +426,37 @@ li {
   .modal-content {
     width: 100%;
   }
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/mi.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
 }
