@@ -141,7 +141,7 @@ div>option {
     margin: 20px auto;
 }
 
-.made4you-image {
+/* .made4you-image {
      --background-image-lazy: url("../images/mi.png"); 
      background-image: var(--background-image-lazy);
     background-color: #cccccc;
@@ -152,7 +152,7 @@ div>option {
     background-size: cover;
     position: relative;
 
-}
+} */
 
 .responsive {
     width: 90%;
