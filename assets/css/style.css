@@ -146,7 +146,7 @@ div>option {
      background-image: var(--background-image-lazy); 
     background-color: #cccccc;
 
-    /* height: 600; */
+    height: 800px;
    
     background-position: center;
     background-repeat: no-repeat;
