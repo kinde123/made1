@@ -447,11 +447,8 @@ li {
 }
 
 
-@media only screen and (max-width: 535px){
-    Navbar {
-      width: 100%;   
-    }
-  .modal-content {
-    width: 100%;
-  }
+@media(min-width:768px) {
+   .navbar-collapse {
+    width: 50%;
+    /* more code here */
 }
