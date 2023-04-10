@@ -447,8 +447,6 @@ li {
 }
 
 
-@media(min-width:768px) {
-   .navbar-collapse {
-    width: 50%;
-    /* more code here */
-}
+@media(max-width: 550px){
+.Navbar{
+width:100%;}}
