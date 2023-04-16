@@ -341,6 +341,9 @@ li {
     .m-1{
         decoration: none;
     }
+    .hero{
+        height: 500px;
+    }
 }
   
   #myImg {
