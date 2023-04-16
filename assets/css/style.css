@@ -456,13 +456,19 @@ width:100%;}}
 
 
 .hero {
-  background-image: url("../image/mi.png");
+    --background-image-lazy: url("../image/mi.png"); 
+    background-image: var(--background-image-lazy); 
   background-size: cover;
   height: 650px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+background-repeat: no-repeat;
+background-position: center;
+    
+    
+    
 }
 
 .hero-content {
