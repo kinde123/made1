@@ -486,7 +486,3 @@ background-position: center;
   box-shadow: 1px 1px 5px #333;
 }
 
-.navbar-scrolled{
-    background-color: #fff;
-    transition: background 0.5s ease-in-out;
-}
